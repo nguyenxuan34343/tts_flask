@@ -407,12 +407,6 @@ async def main():
                 'https://truyenconvert.net/truyen/hoa-hong-do-37268',
                 'https://truyenconvert.net/truyen/hoa-ly-sau-ta-bi-thai-tu-kieu-duong-33742',
                 'https://truyenconvert.net/truyen/vua-tot-nghiep-co-cai-than-hao-he-thong-binh-thuong-a-36887',
-                'https://truyenconvert.net/truyen/tien-vo-de-ton-106532',
-                'https://truyenconvert.net/truyen/than-hao-moi-ngay-danh-dau-1-uc-37061',
-                'https://truyenconvert.net/truyen/huan-luyen-quan-su-ngay-thu-nhat-cao-lanh-giao-hoa-dua-nuoc-cho-ta-33731',
-                'https://truyenconvert.net/truyen/trong-sinh-80-mang-theo-ca-nha-qua-ngay-lanh-37920',
-                'https://truyenconvert.net/truyen/ta-phat-song-truc-tiep-thong-thanh-trieu-37429',
-                'https://truyenconvert.net/truyen/ma-mon-bai-hoai-3293',
     # Limit the number of concurrent tasks to 10
     concurrency = 10
     semaphore = asyncio.Semaphore(concurrency)
