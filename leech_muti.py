@@ -122,7 +122,7 @@ def create_up_chapter_by_book_id(id):
                       if chapter_data is not None:
                           if chapter_data["Status"] == '1':
                               continue
-                          if chapter_data["Status"] == '3':
+                          if chapter_data["Status"] == '2':
                               continue
 
                           upload_file(chapter_data, text_folder_id)
